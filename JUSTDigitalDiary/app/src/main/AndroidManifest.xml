@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.skferdous.justdigitaldiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".JUSTDigitalDiary"
+        android:allowBackup="true"
+        android:icon="@drawable/just"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminPage"
+            android:parentActivityName=".HomePage"
+            />
+        <activity android:name=".SearchMiddleThree" />
+        <activity
+            android:name=".SearchMiddleTwo"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".SearchMiddle"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".SearchAction"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".YouPage"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".FacePage"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".DeptWebsite"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".ExplorePage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".CalendarPageFive"
+            android:parentActivityName=".HomePage" />
+        <activity android:name=".DetailActivity" />
+        <activity
+            android:name=".ViewPagerHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalenderPage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".DeanHealth"
+            android:parentActivityName=".HealthUnit" />
+        <activity
+            android:name=".HealthUnit"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".DeanBus"
+            android:parentActivityName=".BusinessDept" />
+        <activity
+            android:name=".DeanArts"
+            android:parentActivityName=".ArtsUnit" />
+        <activity
+            android:name=".ArtsUnit"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".DeanPure"
+            android:parentActivityName=".PureScience" />
+        <activity
+            android:name=".DeanApp"
+            android:parentActivityName=".AppliedUnit" />
+        <activity
+            android:name=".DeanBio"
+            android:parentActivityName=".BioUnit" />
+        <activity
+            android:name=".speachvc"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Developer"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Website"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".NewNoteActivity"
+            android:parentActivityName=".Notepadhome" />
+        <activity
+            android:name=".Notepadhome"
+            android:launchMode="singleTop"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".SearchBarActivity"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".VC_Sir"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Others"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Institution"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".RegisterSir"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".TreasurerSir"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".FinanceDept"
+            android:parentActivityName=".BusinessDept" />
+        <activity
+            android:name=".ManagDept"
+            android:parentActivityName=".BusinessDept" />
+        <activity
+            android:name=".AisDept"
+            android:parentActivityName=".BusinessDept" />
+        <activity
+            android:name=".MathDept"
+            android:parentActivityName=".PureScience" />
+        <activity
+            android:name=".ChemistryDept"
+            android:parentActivityName=".PureScience" />
+        <activity
+            android:name=".PhysicsDept"
+            android:parentActivityName=".PureScience" />
+        <activity
+            android:name=".BusinessDept"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".PessDept"
+            android:parentActivityName=".HealthUnit" />
+        <activity
+            android:name=".PureScience"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".EnglishDept"
+            android:parentActivityName=".ArtsUnit" />
+        <activity
+            android:name=".ApptDept"
+            android:parentActivityName=".AppliedUnit" />
+        <activity
+            android:name=".NftDept"
+            android:parentActivityName=".AppliedUnit" />
+        <activity
+            android:name=".EstDept"
+            android:parentActivityName=".AppliedUnit" />
+        <activity
+            android:name=".AppliedUnit"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".PharDept"
+            android:parentActivityName=".BioUnit" />
+        <activity
+            android:name=".GebtDept"
+            android:parentActivityName=".BioUnit" />
+        <activity
+            android:name=".FmbDept"
+            android:parentActivityName=".BioUnit" />
+        <activity
+            android:name=".MbDept"
+            android:parentActivityName=".BioUnit" />
+        <activity
+            android:name=".BioUnit"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Service.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".HomePage" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".AboutUS"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".DeanEngr"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Main5Activity"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".EEEdept"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".IpeDept"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".CheDept"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".PmeDept"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".BmeDept"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".TexDept"
+            android:parentActivityName=".Main4Activity" />
+    </application>
+
+</manifest>

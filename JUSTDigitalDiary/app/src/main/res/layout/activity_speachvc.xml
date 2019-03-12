@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".speachvc">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vcpic1"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Vice Chancellor :"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:textColor="#127069"
+                android:layout_margin="10dp"
+                />
+            <LinearLayout
+                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vcpic2"
+                    android:layout_margin="1dp"
+                    />
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="3dp"
+                    app:cardCornerRadius="11dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:contentPadding="1dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Prof. Dr. M. Anwar Hossain"
+                            android:textSize="25dp"
+                            android:textColor="#080809"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jashore University Of Science and Technology"
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FAX: 0421-62238, 0421-61199"
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Web Site: www.just.edu.bd"
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-mail : vc@just.edu.bd"
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Official Contact Number: "
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0421-61111 ,  0421-51081  "
+                            android:textSize="18dp"
+                            android:textColor="#080809"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Important Speech from Vice Chancellor Sir:"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#0A0A0A"
+            android:textAlignment="center"
+            />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_margin="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vc"
+
+                />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

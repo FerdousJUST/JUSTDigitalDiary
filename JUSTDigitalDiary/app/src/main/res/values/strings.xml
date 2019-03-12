@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">JUST Digital Diary</string>
+    <string name="about">Thanks to my honourable teachers to help me in this project</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="vc1">Message (Vice-Chancellor)</string>
+    <string name="vc">It is my great pleasure to invite you to explore the
+        Jashore University of Science and Technology (JUST) online through our website.
+        Contribution of science and technology for developing a nation is well known to all.
+        To meet up the diversified demand of people, information and communication technology
+        and biological sciences are playing the key role. University is the most suitable place
+        for education and research. Universities are playing a vital role in building efficient
+        manpower for the development of the country as well as for the global need. With a view
+        to imparting science and technology oriented education in Bangladesh, the Jashore University
+        of Science and Technology was established in 2007 by the Shadhinota Shorok (Independence Road)
+        in Jashore district. The first batch of students was admitted in 2008-2009 session.
+        The honorable Prime Minister of the People’s Republic of Bangladesh, Sheikh Hasina,
+        inaugurated the campus of the university on December 27, 2010.
+
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

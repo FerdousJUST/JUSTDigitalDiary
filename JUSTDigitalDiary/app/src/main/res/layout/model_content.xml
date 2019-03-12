@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="22dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="......Choose Your Option......"
+        android:textColor="#111111"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/namebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by Name"
+        android:layout_below="@id/text00"
+        android:padding="1dp"
+        android:textStyle="bold"
+        android:layout_margin="9dp"
+        android:fontFamily="@font/calibri"
+        android:textSize="19dp"
+        android:textColor="#111111"
+        />
+    <Button
+        android:id="@+id/degbtn"
+        android:textStyle="bold"
+        android:fontFamily="@font/calibri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by Designation"
+        android:padding="1dp"
+        android:layout_margin="9dp"
+        android:textSize="19dp"
+        android:textColor="#111111"
+        android:layout_below="@id/namebtn"
+        />
+
+   <!-- <Button
+        android:id="@+id/deptbtn"
+        android:textStyle="bold"
+        android:fontFamily="@font/calibri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by Department"
+        android:layout_below="@id/degbtn"
+        android:padding="1dp"
+        android:layout_margin="9dp"
+        android:textSize="19dp"
+        android:textColor="#0A0000"
+        />
+-->
+</RelativeLayout>

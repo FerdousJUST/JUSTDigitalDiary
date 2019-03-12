@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav2"
+            android:icon="@drawable/t5"
+            android:title="@string/vc1" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav4"
+                android:icon="@drawable/website_icon"
+                android:title="JUST Website" />
+            <item
+                android:id="@+id/nav5"
+                android:icon="@drawable/aboutus_icon"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav6"
+                android:icon="@drawable/contacts"
+                android:title="Developer" />
+            <item
+                android:id="@+id/nav7"
+                android:icon="@drawable/searchresult"
+                android:title="Contact with Admin" />
+        </menu>
+    </item>
+
+
+
+</menu>

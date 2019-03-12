@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Developer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Developer :"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="#C40D5C"
+            android:layout_margin="10dp"
+            />
+        <LinearLayout
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ferdous"
+                android:layout_margin="1dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="11dp"
+                app:cardBackgroundColor="#ffffff"
+                app:contentPadding="1dp"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sk Ferdous Rahman"
+                        android:textSize="25dp"
+                        android:textColor="#080809"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dept. of Computer Science and Engineering"
+                        android:textSize="18dp"
+                        android:textColor="#080809"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jashore University of Science and Technology"
+                        android:textSize="18dp"
+                        android:textColor="#080809"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Session: 2014-15"
+                        android:textSize="18dp"
+                        android:textColor="#080809"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail: ferdousjust2018@gmail.com"
+                        android:textSize="18dp"
+                        android:textColor="#080809"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone: 01785-247043,01815-650647"
+                        android:textSize="18dp"
+                        android:textColor="#080809"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="26dp"
+            android:background="#DDD8B7"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#3AC5CE"
+                    android:fontFamily="@font/calibri"
+                    android:text="My LinkedIN Profile"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textStyle="bold"
+                    android:textSize="21dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="26dp"
+            android:background="#DDD8B7"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E07821"
+                    android:text="email me"
+                    android:fontFamily="@font/calibri"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="#245E27"
+                    android:textSize="21dp" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/calibri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1AB422"
+                    android:text="message me"
+                    android:textAlignment="center"
+                    android:textColor="#0D3058"
+                    android:textSize="21dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

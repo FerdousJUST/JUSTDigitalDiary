@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="158dp"
+    android:background="@drawable/hh"
+    android:padding="20dp"
+    >
+
+<!--
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/download"
+        android:background="#fff"
+        />
+
+           <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jashore University of Science and Technology"
+        android:textStyle="bold"
+        android:textColor="#f5f5f5" />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dept. Of CSE"
+        android:textColor="#f5f2f5"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="58sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jashore University of Science"
+        android:textStyle="normal"
+        android:textColor="#f5f5f5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" and Technology"
+        android:textStyle="normal"
+        android:textColor="#f5f5f5" />
+
+
+</LinearLayout>

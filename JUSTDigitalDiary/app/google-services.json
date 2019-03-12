@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "74924998225",
+    "firebase_url": "https://justdigitaldiary.firebaseio.com",
+    "project_id": "justdigitaldiary",
+    "storage_bucket": "justdigitaldiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74924998225:android:52fa6b37dda5e509",
+        "android_client_info": {
+          "package_name": "com.blogspot.skferdous.justdigitaldiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74924998225-oprubka8r5qtj74fvt1f923cid2g78h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.skferdous.justdigitaldiary",
+            "certificate_hash": "0e25cfbecac8593dfc3084bbda15f2fe1a555828"
+          }
+        },
+        {
+          "client_id": "74924998225-mtp40gh9aue9ttg1eqiud5886m8vhbk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjpsjauAqrH1jv6mimu4Y9gdWBW7T0N-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74924998225-mtp40gh9aue9ttg1eqiud5886m8vhbk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
